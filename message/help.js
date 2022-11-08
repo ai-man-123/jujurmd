@@ -70,13 +70,10 @@ ${readmore}
 ≻ ${prefix}quotes
 ≻ ${prefix}gombalan
 ≻ ${prefix}katagalau
-≻ ${prefix}cecan
-≻ ${prefix}cogan
 ≻ ${prefix}naruto
 ≻ ${prefix}loli
 ≻ ${prefix}waifu
 ≻ ${prefix}husbu
-≻ ${prefix}yaoi
   
 *( ⚠️ )  Premium User*
 ≻ ${prefix}menu-premium
@@ -113,10 +110,7 @@ ${readmore}
 ≻ ${prefix}faktaunik
 ≻ ${prefix}ppcp
 ≻ ${prefix}darkjokes
-≻ ${prefix}meme
 ≻ ${prefix}covid19
-≻ ${prefix}cerpen
-≻ ${prefix}cersex
 ≻ ${prefix}wiki <Query>
 ≻ ${prefix}say <Text>
 ≻ ${prefix}qr <Text>
@@ -227,7 +221,7 @@ $ executor
 ≻ ${prefix}unblock
 ≻ ${prefix}getmenu <text|image|buttons5|button>
 ≻ ${prefix}setprefix <multi/nopref>
-≻ ${prefix}setowner <628XXX>
+≻ ${prefix}setowner <601XXX>
 
 *${setting.botName}*`
 }
@@ -280,13 +274,10 @@ exports.rndm = (sender, prefix) => {
 ≻ ${prefix}quotes
 ≻ ${prefix}gombalan
 ≻ ${prefix}katagalau
-≻ ${prefix}cecan
-≻ ${prefix}cogan
 ≻ ${prefix}naruto
 ≻ ${prefix}loli
 ≻ ${prefix}waifu
-≻ ${prefix}husbu
-≻ ${prefix}yaoi`
+≻ ${prefix}husbu`
 }
 
 exports.menuprem = (sender, prefix) => {
@@ -309,10 +300,7 @@ exports.othermenu = (sender, prefix) => {
 ≻ ${prefix}faktaunik
 ≻ ${prefix}ppcp
 ≻ ${prefix}darkjokes
-≻ ${prefix}meme
 ≻ ${prefix}covid19
-≻ ${prefix}cerpen
-≻ ${prefix}cersex
 ≻ ${prefix}wiki <Query>
 ≻ ${prefix}say <Text>
 ≻ ${prefix}qr <Text>
@@ -460,6 +448,6 @@ $ executor
 ≻ ${prefix}unblock
 ≻ ${prefix}getmenu <text|image|buttons5|button>
 ≻ ${prefix}setprefix <multi/nopref>
-≻ ${prefix}setowner <628XXX>
+≻ ${prefix}setowner <601XXX>
 ≻ ${prefix}creategroup`
 }
