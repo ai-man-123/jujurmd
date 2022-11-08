@@ -73,13 +73,13 @@ const jojoapi = "Syaa"
 const imgbbapi = "9a0aed7ae09bdf7a9d7ddeb018fed6cf"
 
 // Setting Donasi
-const gopay = "0882-1329-2687"
-const ovo = "0813-1994-4917"
-const dana = "0813-1994-4917"
-const pulsa = "0813-1994-4917"
-const pulsa2 = "0882-1329-2687"
-const ig = "arsrfii"
-const github = "GetSya"
+const gopay = "-"
+const ovo = "-"
+const dana = "-"
+const pulsa = "0102810046"
+const pulsa2 = "-"
+const ig = "aiman1_23"
+const github = "ai-man-123"
 
 // Exif
 const Exif = require("../lib/exif")
@@ -106,7 +106,7 @@ let prefa = '#'
 
 // Rndm
 let mode = 'public'
-let own2 = '6281319944917@s.whatsapp.net'
+let own2 = '60102810046@s.whatsapp.net'
 let autoyt = true
 
 // Type Menu
@@ -430,8 +430,8 @@ module.exports = async(conn, msg, m, setting, store) => {
 		}
 		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+${ownerNumber}` } },
 		const buttonsDefault = [
-			{ urlButton: { displayText: `🏹 GRUP WHATSAPP 🎯`, url : gcwa } },
-			{ urlButton: { displayText: `👤 OWNER BOT 👤`, url : `https://wa.me/6281319944917?text=Hai+kak+aku+mau+beli+PREMIUM` } },
+			{ urlButton: { displayText: `🏹 TIKTOK`, url : `tiktok.com/@aiman_nightsad` } },
+			{ urlButton: { displayText: `👤 OWNER BOT 👤`, url : `https://wa.me/60102810046?text=Hai+bang+hensem` } },
 			{ quickReplyButton: { displayText: `Rate Bot ⭐`, id: `${prefix}getrating` } },
 			{ quickReplyButton: { displayText: `List Menu 📑`, id: `${prefix}allmenu` } },
 		  { quickReplyButton: { displayText: `Login 👥`, id: `${prefix}login` } },
@@ -744,7 +744,7 @@ if (typemenu === 'image') {
 if (typemenu === 'sections') {
   var sections = [
     {
-	title: "MENU JOJO",
+	title: "MENU LYNXBOT",
 	rows: [
 	    {title: `1. Generator Menu 🧬`, rowId: `${prefix}generatormenu`},
 	    {title: `2. Downloader Menu ⬇️`, rowId: `${prefix}downloadermenu`},
@@ -774,15 +774,15 @@ if (typemenu === 'sections') {
 	title: "Social Media",
 	rows: [
 	  {title: `1. Instagram`, rowId: `${prefix}igadmin`, description: `Instagram Admin`},
-	  {title: `2. Grup Jojo`, rowId: `${prefix}gcwa`, description: `Grup JOJO-BOT`},
+	  {title: `2. Tiktok`, rowId: `${prefix}gcwa`, description: `@aiman_nightsad`},
 	  {title: `3. WhatsApp`, rowId: `${prefix}owner`, description: `Owner Bot`}
   ]}
 ]
 var listMessage = {
   text: menunya,
-  footer: "Follow My Instagram :\nhttps://instagram.com/arsrfii",
+  footer: "Follow My Instagram :\nhttps://instagram.com/aiman1_23",
   title: "❋─────────────────❋",
-  buttonText: "JOJO",
+  buttonText: "Lynxman",
   sections
 }
 }
@@ -794,7 +794,7 @@ case prefix+'igadmin':
 			{ urlButton: { displayText: `Instagram Admin`, url : `https://instagram.com/${ig}` } },
 		  { quickReplyButton: { displayText: `Back To Menu 🔙`, id: `${prefix}menu` } },
 		]
-		conn.sendMessage(from, { text: `Nama : Arasya\nUsername : @arsrfii`, templateButtons: ignye, footer: `arsrfii`, mentions: [sender]} )
+		conn.sendMessage(from, { text: `Nama : Aiman\nUsername : @aiman1_23`, templateButtons: ignye, footer: `aiman1_23`, mentions: [sender]} )
   break
 case prefix+'gcwa':
   reply(`*[ GRUP ${botName.toUpperCase()} ]*\n\nLink Grup : ` + monospace(gcwa))
@@ -942,8 +942,8 @@ var teks = `  │
   ├─ ❏ ${ovo}
   ├─ ❏ DANA
   ├─ ❏ ${dana}
-  ├─ ❏ SHOPEE PAY
-  ├─ ❏ 0882-1329-2687
+  ├─ ❏ Digi
+  ├─ ❏ 0102810046
   ├─ ❏ INSTAGRAM
   └─ ❏ https://www.instagram.com/${ig}
   
@@ -967,10 +967,7 @@ Keuntungan:
 - Add Ke Grup
 
 Via :
-- Ovo (088213292687)
-- Gopay (088213292687)
-- Dana (081319944917)
-- Spay (088213292687)
+- digi=0102810046
 
 ~ Tim ${botName}
 ${readmore}
@@ -1008,6 +1005,7 @@ Haii @${sender.split("@")[0]}, aku adalah *${botName}*, Yang bisa membantu anda 
 Thanks To
 - Riyan
 - Arasya
+- Aiman
 - Amel
 - Hardianto
 - Febri`
@@ -1140,7 +1138,7 @@ break
 case prefix+'list':
   case prefix+'ceklist':
 var list = []
-var teskd = `*[ JOJO BOT - LIST DM SHOP ]*\n\n`
+var teskd = `*[ lynxbot - LIST DM SHOP ]*\n\n`
 for (let i of listnya) {
 list.push({
 title: i.nameshop, rowId: `${prefix}gettlist ${i.text}`, description: `Name Shop : ${i.nameshop}\nPenjual : https://wa.me/${i.sender.split("@")[0]}`})}
@@ -2191,9 +2189,9 @@ case prefix+'game':
 ]
 var listMessage = {
   text: `Game : 13\nAktif Semua ✔️`,
-  footer: "Follow My Instagram :\nhttps://instagram.com/arsrfii",
-  title: "JOJO - GAME",
-  buttonText: "JOJO - GAME",
+  footer: "Follow My Instagram :\nhttps://instagram.com/aiman1_23",
+  title: "lynxbot - GAME",
+  buttonText: "lynx - GAME",
   sections
 }
 conn.sendMessage(from, listMessage, {quoted: msg})
@@ -2351,7 +2349,7 @@ Ketakutan : ${takut}%
 				    limitAdd(sender, limit)
 				    break
 case prefix+'sc':
-  reply("https://github.com/GetSya/JOJO-MD")
+  reply("https://github.com/ai-man-123")
   break
 case prefix+'apakah':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
